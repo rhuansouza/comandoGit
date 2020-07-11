@@ -1,0 +1,49 @@
+https://www.youtube.com/watch?v=iRs6sQOPcvg&list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj&index=5
+
+--cria arquivo no ssh
+touch arquivo.txt
+git init    -- cria umrepositorio local
+git commit -m "Seu commit"    --comita seus arquivos no container local
+git status                    --mostra status do repositorio remoto
+git log                       --mostra as pendências estatus dos arquivos
+git log --oneline             --mostra os ultimos commits
+git log --graph
+git commit -am "seu commit"  --adiciona e comita no container
+git branch   --identifica o ramo do projeto
+$ git checkout "d5c67b6"  --
+git checkout master  --retorna para o ultimo commit
+
+--desfazendo alterações
+
+git diff  --mostra as diferencas que ocorreram nos arquivos
+git checkout arquivo.txt
+git reset HEAD  --remove o conteudo comitado no container
+git reset --hard hash --voltar para um no anterior
+
+--Criar ramo novo
+git checkout -b nome_do_ramo
+
+
+git log --oneline --graph --all           ---ver todas as branchs
+
+Retornando ao ramo master
+git checkout master
+
+fundir um ramo ao ramo master
+git merge nome_do_ramo
+
+
+verifica se tem repositorio local
+git remote 
+
+--linkando repositorio local ao repositorio do github
+git remote add origin https://github.com/rhuansouza/git.git
+git remote -v
+
+enviar repositorio para o github
+git push -u origin master
+
+Clonando Repositorio do github
+git clone https://github.com/rhuansouza/testeClone.git
+
+
