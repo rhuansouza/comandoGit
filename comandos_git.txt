@@ -44,6 +44,15 @@ git remote -v
 enviar repositorio para o github
 git push -u origin master
 
+
+
+git push -u origin master
+git pull
+
+git fetch
+git merge origin/master
+
+
 Clonando Repositorio do github
 git clone https://github.com/rhuansouza/testeClone.git
 
