@@ -6,7 +6,7 @@ touch arquivo.txt
 git init    -- cria umrepositorio local
 git commit -m "Seu commit"    --comita seus arquivos no container local
 git status                    --mostra status do repositorio remoto
-git log                       --mostra as pendências estatus dos arquivos
+git log                       --mostra as pendÃªncias estatus dos arquivos
 git log --oneline             --mostra os ultimos commits
 git log --graph
 git commit -am "seu commit"  --adiciona e comita no container
@@ -14,7 +14,7 @@ git branch   --identifica o ramo do projeto
 $ git checkout "d5c67b6"  --
 git checkout master  --retorna para o ultimo commit
 
---desfazendo alterações
+--desfazendo alteraÃ§Ãµes
 
 git diff  --mostra as diferencas que ocorreram nos arquivos
 git checkout arquivo.txt
@@ -57,3 +57,5 @@ Clonando Repositorio do github
 git clone https://github.com/rhuansouza/testeClone.git
 
 
+--baixar branch remoto no git
+git checkout -t origin/nomedobranch
